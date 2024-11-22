@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* font-family: "Arsenal", sans-serif; */
+    /* font-weight: 700; */
+    background: #000;
+}
+
+:root {
+
+    --bg-gray: #202020;
+    --bg-darkgray: #151515;
+    --text-gray: #a3a3a3;
+}
+
+.bg-gray {
+    background: var(--bg-gray);
+}
+
+.bg-darkgray {
+    background: var(--bg-darkgray);
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+.img {
+    width: 70%;
+    height: 550px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.thumbnail {
+    height: 800px;
+}
+
+.thumbnail-text {
+    position: relative;
+    top: 40%
+}
+
+.footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    .img {
+        height: 300px;
+        object-fit: cover;
+        margin-left: 3.4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .thumbnail {
+        height: 550px;
+    }
+
+    .align {
+        margin-left: 1.5rem;
+    }
+
+    .center-align {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
